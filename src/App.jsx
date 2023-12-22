@@ -61,7 +61,7 @@ export default function App() {
             setStart(false);
           }}
         >
-          <div className="text-4xl text-[#0E6AAD] font-bold -mb-60 z-50">
+          <div className="text-4xl text-[#0E6AAD] font-bold -mb-60 md:-mb-28 z-50">
             SOUND ON!
           </div>
           <img
@@ -72,7 +72,7 @@ export default function App() {
             //   setStart(false);
             // }}
           />
-          <div className="text-4xl text-[#0E6AAD] font-bold -mt-60 z-20">
+          <div className="text-4xl text-[#0E6AAD] font-bold -mt-60 md:-mt-28 z-20">
             PRESS ME!
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function App() {
             <div className="text-6xl font-bold  text-white font-bold animate-fade-up font-festive animate-duration-800 animate-delay-1000">
               Merry Christmas
             </div>
-            <div className="text-indigo-500 font-bold text-5xl animate-jump-in animate-duration-1000 animate-delay-[1500ms] text-[#0E6AAD]">
+            <div className="font-bold text-5xl animate-jump-in animate-duration-1000 animate-delay-[1500ms] text-[#0E6AAD]">
               Sweet Pea!
             </div>
             <img
@@ -187,7 +187,7 @@ export default function App() {
                   Little Caesars Arena
                 </div>
 
-                <div className="animate-jump-in animate-once animate-duration-500 ">
+                <div className="animate-jump-in animate-once animate-duration-500 md:w-1/4">
                   <img src={bill} alt="" />
                 </div>
 
